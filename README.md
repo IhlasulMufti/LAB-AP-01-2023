@@ -42,15 +42,15 @@
 5. Didalam folder tersebut, buat sebuah folder dengan nama **Praktikum-n**, **n** = praktikum keberapa
    ```sh
 
-   mkdir "Praktikum n"
-   cd "Praktikum n"
+   mkdir "Praktikum-n"
+   cd "Praktikum-n"
    
    CATATAN: n DI SINI ADALAH NOMOR PRAKTIKUM KE BERAPA
-   CONTOH: Praktikum 1
+   CONTOH: Praktikum-1
 
    ```
 
-7. Semua _file_ untuk tugas praktikum ke-**n**, disimpan kedalam folder **Praktikum n**
+7. Semua _file_ untuk tugas praktikum ke-**n**, disimpan kedalam folder **Praktikum-n**
 8. Setiap membuat _file_ atau melakukan perubahan, lakukan proses **commit** dengan pesan yang deskriptif
 
    ```sh
@@ -98,7 +98,7 @@
    #3. Scroll ke bagian bawah dan pilih menu Dveloper settings
    #4. Pilih Prsonal access tokens
    #5. Pilih Generate new tokes
-   #6. Tuliskan note untuk token anda (ex: Token for LABPP_2022_13)
+   #6. Tuliskan note untuk token anda (ex: Token for LAB-AP-01-2023)
    #7. Atur waktu expiration token anda (sesuai keinginan anda)
    #8. Pada select scope, ceklis box repo
    #9. Klik generate new token
