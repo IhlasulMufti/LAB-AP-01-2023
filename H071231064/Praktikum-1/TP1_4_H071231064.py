@@ -3,6 +3,10 @@ print("-------------------------")
 
 karakter = input("Karakter = ")
 
-print(f"Huruf Kapital? : {karakter.isupper()}")
-print(f"Huruf Kecil? : {karakter.islower()}")
-print(f"Angka? : {karakter.isdigit()}")
+uppercase = karakter >= 'A' and karakter <= 'Z'
+lowercase = karakter >= 'a' and karakter <= 'z'
+digit = karakter >= '0' and karakter <= '9'
+
+print("Huruf Kapital? : {}".format(uppercase))
+print("Huruf Kecil? : {}".format(lowercase))
+print("Angka? : {}".format(digit))

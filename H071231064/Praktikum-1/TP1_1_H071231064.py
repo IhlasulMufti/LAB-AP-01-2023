@@ -7,5 +7,5 @@ luas = ( x * y ) / 2
 SisiMiring = (x**2 + y**2)**(1/2)
 keliling = x + y + SisiMiring
 
-print(f"Luas Permukaan : {round(luas,2)}")
-print(f"Keliling : {round(keliling,2)}")
+print("Luas Permukaan : {:.2f}".format(luas))
+print("Keliling Permukaan : {:.2f}".format(keliling))
