@@ -10,14 +10,15 @@ if a == 'vertebrado':
             print('pomba')
         else:
             print('invalid input')
-    if b == 'mamifero':
+    elif b == 'mamifero':
         if c =='onivoro':
             print('homem')
         elif c =='herbivoro':
             print('vaca')
         else:
             print('invalid input')
-
+    else:
+        print('invalid input')
 elif a == 'intervebrado':
     if b == 'inseto':
         if c == 'hemtofago':
@@ -26,12 +27,14 @@ elif a == 'intervebrado':
             print('lagarta')
         else:
             print('invalid input')
-    if b == 'anelideo':
+    elif b == 'anelideo':
         if c == 'hematofago':
             print('sanguessuga')
         elif c == 'anovoro':
             print('minhoca')
         else:
             print('invalid input')
+    else:
+        print('invalid input')
 else:
     print('invalid input')
