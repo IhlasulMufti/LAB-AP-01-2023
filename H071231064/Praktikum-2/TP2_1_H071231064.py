@@ -15,21 +15,23 @@ bodyMassIndex = berat/(tinggi/100)**2
 match gender :
     case 1:
         if bodyMassIndex < 18 :
-            print("Anda Tergolong Underweight dengan BMI {:.2f}".format(bodyMassIndex)) 
+            golongan = "Underweight"
         elif bodyMassIndex >= 18 and bodyMassIndex <= 23.9 :
-            print("Anda Tergolong Normal dengan BMI {:.2f}".format(bodyMassIndex)) 
-        elif bodyMassIndex >= 24 and bodyMassIndex <= 26.9 :
-            print("Anda Tergolong Overweight dengan BMI {:.2f}".format(bodyMassIndex)) 
+            golongan = "Normal"
+        elif bodyMassIndex >= 24 and bodyMassIndex <= 26.9 : 
+            golongan = "Overweight"
         else :
-            print("Anda Tergolong Obese dengan BMI {:.2f}".format(bodyMassIndex)) 
+            golongan = "Obese"
     case 2:
         if bodyMassIndex < 17 :
-            print("Anda Tergolong Underweight dengan BMI {:.2f}".format(bodyMassIndex)) 
+            golongan = "Underweight"
         elif bodyMassIndex >= 17 and bodyMassIndex <= 23.9 :
-            print("Anda Tergolong Normal dengan BMI {:.2f}".format(bodyMassIndex)) 
+            golongan = "Normal" 
         elif bodyMassIndex >= 24 and bodyMassIndex <= 27.9 :
-            print("Anda Tergolong Overweight dengan BMI {:.2f}".format(bodyMassIndex)) 
+            golongan = "Overweight" 
         else :
-            print("Anda Tergolong Obese dengan BMI {:.2f}".format(bodyMassIndex)) 
+            golongan = "Obese" 
     # case _ :
     #     print("Gender tidak ada")
+
+print("Anda Tergolong {} Dengan BMI {:.2f}".format(golongan,bodyMassIndex))
