@@ -1,4 +1,4 @@
-golongan = input('Golongan = ').upper()
+golongan = input('Golongan = ').upper() 
 daya = float(input('Daya = '))
 pemakaian = float(input('Pemakaian = '))
 
