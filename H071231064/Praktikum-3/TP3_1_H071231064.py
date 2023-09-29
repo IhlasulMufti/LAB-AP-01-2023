@@ -7,7 +7,7 @@ a, b = 0, 1
 # Mencetak urutan Fibonacci pertama n
 for i in range(n):
     print(a, end=' ')  # Mencetak nilai a tanpa newline
-    a,b = b, a + b 
- # Mengupdate nilai a dan b sesuai dengan aturan Fibonacci
+    a = b 
+    b = a + b  # Mengupdate nilai a dan b sesuai dengan aturan Fibonacci
 
 print()  # Mencetak newline untuk pemisah
