@@ -11,8 +11,6 @@ print('='*40)
 print('Selamat datang di program fibonacci')
 print('='*40)
 
-
-# menu = int(input())
 while True:
     print('\nSilahkan pilih menu\n1.Default Number\n2.Custom Number\n3.Exit')
     menu = int(input('\n= '))
@@ -32,8 +30,3 @@ while True:
 
     else:
         print('Menu tidak tersedia')
-
-    
-        
-
-
