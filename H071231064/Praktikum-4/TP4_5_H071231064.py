@@ -1,7 +1,7 @@
 # fibonacci menggunakan fungsi rekursif
 def fibonacci(suku_n,a,b):
     if(suku_n <= 0):
-        return
+        return print("Suku ke n Tidak Boleh Lebih Rendah Dari 0!")
     print(a, end=' ')  # Mencetak nilai a tanpa newline
     c = a
     a = b 
@@ -9,7 +9,6 @@ def fibonacci(suku_n,a,b):
     suku_n -= 1
     fibonacci(suku_n,a,b)
 
-# suku = int(input("Masukkan Suku dari fibonacci : "))
 while True:
     print("\n1. default\n2. Custom\n3. Exit")
     pilihan = int(input("Masukkan Pilihan : "))
