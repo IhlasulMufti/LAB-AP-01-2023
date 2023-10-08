@@ -23,7 +23,7 @@ while True:
         print("Deret Fibonacci:", hasil)
         print("------------------------")
 
-    if pilihan == 2:
+    elif pilihan == 2:
         jumlah_deret = int(input("Masukkan jumlah iterasi: "))
         nilai_awal1 = int(input("Masukkan Angka Pertama: "))
         nilai_awal2 = int(input("Masukkan Angka Kedua: "))
@@ -31,11 +31,11 @@ while True:
         print("Deret Fibonacci:", hasil)
         print("------------------------")
 
-    if pilihan == 3:
+    elif pilihan == 3:
         print("Terima kasih, program telah selesai!")
         print("-----------------------------------")
         break
 
-    if pilihan not in [1, 2, 3] :
+    elif pilihan not in [1, 2, 3] :
         print("Menu tidak tersedia")
         print("-------------------")
