@@ -1,4 +1,4 @@
-def kata_palindrom(kata):
+def kata_palindrom(kata: str)->str:
    kata = kata.lower()
    balik = kata[::-1]
    if kata == balik:
