@@ -1,34 +1,35 @@
-
-
-awal = int(input("masukan nilai :"))
+awal = int(input("Masukan nilai :"))
+print("-" *20)
 while True:
-    print("menu:")
+    print("Menu:")
     print("1.Penjumlahan")
     print("2.Pengurangan")
-    print("3.perkalian")
+    print("3.Perkalian")
     print("4.Pembagian")
     print("5.Hasil")
     
-    menu= int(input("pilih menu:"))
+    menu= int(input("Pilih Menu:"))
+    print("-" *20)
      
     if menu == 1:
-         nilai = int(input("masukan nilai:"))
+         nilai = int(input("Masukan nilai:"))
+         print("-" *20)
          awal += nilai
     elif menu == 2:
-         nilai  = int(input("masukan nilai:"))
+         nilai  = int(input("Masukan nilai:"))
+         print("-" *20)
          awal -= nilai
     elif menu == 3:
-         nilai = int(input("masukan nilai:"))
+         nilai = int(input("Masukan nilai:"))
+         print("-" *20)
          awal *= nilai 
     elif menu == 4:
-         nilai = int(input("masukan nilai:"))
+         nilai = int(input("Masukan nilai:"))
+         print("-" *20)
          awal /= nilai 
     elif menu == 5:
-         print(f"hasil {awal}")
+         print(f"Hasil {awal}")
          break
     else:
-         print("menu tidak tersedia")
-         
-
-                   
-
+         print("Menu Tidak Tersedia")
+         print("-" *20)
