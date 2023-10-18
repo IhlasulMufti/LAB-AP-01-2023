@@ -32,9 +32,4 @@ def anagrams(word1, word2):
 word1 = input("Masukkan kata pertama: ")
 word2 = input("Masukkan kata kedua: ")
 
-# if anagrams(word1, word2):
-#     print("Kedua kata adalah anagram.")
-# else:
-#     print("Kedua kata bukan anagram.")
-
 print(anagrams(word1,word2))

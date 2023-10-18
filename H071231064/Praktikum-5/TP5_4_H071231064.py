@@ -11,7 +11,7 @@ def kebalikan(kalimat):
     for kata in kalimat:
         if kata.lower() == "tidak":
             index_tidak = i
-        if kata.lower() == "jelek":
+        elif kata.lower() == "jelek":
             index_jelek = i
         i += 1
     awal_kata = kalimat[:index_tidak]

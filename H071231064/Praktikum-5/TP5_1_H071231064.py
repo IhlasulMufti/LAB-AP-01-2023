@@ -2,7 +2,6 @@ def gabung_string(s1, s2):
     hasil = ""
     i = 0
     j = len(s2) - 1
-    k = len(s2) - 1
 
     while i < len(s1) and j >= 0:
         hasil += s1[i] + s2[j]
