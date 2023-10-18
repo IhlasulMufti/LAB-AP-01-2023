@@ -5,5 +5,6 @@ def gabung(kata):
     else:
         kata_tengah = kata[tengah]
     return kata[0] + kata_tengah + kata[-1]
+
 kata = input()
 print(gabung(kata))
