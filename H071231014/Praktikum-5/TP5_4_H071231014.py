@@ -6,5 +6,6 @@ def hilang_nol(ipadd):
         ip_baru.append(ipd)
     ip_baru= ".".join(ip_baru)
     return ip_baru
+
 ipadd= input()
 print(hilang_nol(ipadd))
