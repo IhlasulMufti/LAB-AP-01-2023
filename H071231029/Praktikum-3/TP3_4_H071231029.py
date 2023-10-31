@@ -3,6 +3,7 @@ hasil = angka1
 while True:
     print("Pilihlah Bilangan Operasi yang ingin anda Masukkan\n1.Penjumlahan\n2.Pengurangan\n3.Perkalian\n4.Pembagian\n5.Hasil ")
     menu =int(input(" = "))
+    
     if menu == 5:
         print(hasil)
         break
