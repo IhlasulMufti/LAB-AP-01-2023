@@ -1,8 +1,0 @@
-print(f'Konversi Suhu dari kelvin ke Celcius,Farenheit,Reamur')
-k=int(input('Masukkan Suhu dalam Kelvin  '))
-c=int(k - 273)
-f=int((9/5)*(k-273)+32)
-r=int((4/5)*(k-273))
-print(f'Hasil konversi Suhu {k} Kelvin ke Celcius adalah : {c}C')
-print(f'Hasil konversi Suhu {k} Kelvin ke Farenhait adalah : {f}F')
-print(f'Hasil konversi Suhu {k} Kelvin ke Reamur adalah : {r}R')
