@@ -12,9 +12,9 @@ class Mahasiswa:
         print("IPK: ", self.ipk)
 
     def set_nim(self, nim):
-        self.nim = nim
+        self.__nim = nim
     def get_nim(self):
-        return self.nim
+        return self.__nim
 
     def hitung_predikat(self):
         if self.ipk >= 3.5:
